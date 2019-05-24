@@ -1,0 +1,44 @@
+fieldset { 
+	width: 720px; 
+	height: 700px;
+	padding: 10px;
+	display: block;
+	margin:0 auto;
+}
+
+#gamefield{
+	width: 720px;
+}
+
+#gamefield p{
+	width: 70px;
+	float: left;
+	display: block;
+	margin: 1px;
+	text-align: center;
+	font-size: 30px;
+}
+
+#gamefield p.horizontal{
+	height: 25px; 
+	margin-top: 14px;
+	margin-bottom: 14px;
+}
+
+#gamefield p.vertical{
+	height: 50px; 
+	margin-top: 22px;
+}
+#gamefield a{
+	width: 70px;
+	height: 70px; 
+	float: left;
+	display: block;
+	cursor: pointer;
+	border: 1px solid #dfdfdf;
+}
+
+#gamefield .color1 {background-color: #FFFFFF}
+#gamefield .color2 {background-color: #000000}
+#gamefield .color3 {background-color: #00CC00}
+#gamefield .color4 {background-color: #0000FF}
